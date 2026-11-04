@@ -1,0 +1,33 @@
+.build/
+build/
+.swiftpm/
+.DS_Store
+
+# Local credentials and signing material must stay outside source control.
+.env
+.env.*
+*.p8
+*.p12
+*.pfx
+*.key
+*.pem
+*.cer
+*.certSigningRequest
+*.provisionprofile
+*.mobileprovision
+*.keychain
+*.keychain-db
+
+# Personal note data (including the legacy encrypted page).
+*.tinystash
+*.aesgcm
+
+# Packaged applications and local Xcode artifacts.
+*.app/
+*.dmg
+*.pkg
+*.dSYM/
+*.xcarchive/
+DerivedData/
+xcuserdata/
+*.xcuserstate
