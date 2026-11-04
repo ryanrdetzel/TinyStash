@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Add an actual-app screenshot and explain the sensitive development/testing scratchpad use case, including the limits of protection from AI agents and other local processes.
 - Prepare the public Tiny Stash repository with MIT licensing, contributor/agent guidance, and public-facing documentation without private project links.
 - Restore Settings (⌘,) with persistent lock-on-focus-loss and System/Light/Dark appearance choices. Apply appearance to the lock screen, editor, and Settings window; keep minimizing, sleep, and system locking unconditional.
 - Remember the editor's window size and position across locking and launches. Keep lock-screen resizing separate from the saved editor frame, and allow the editor to shrink below the lock screen's minimum size.

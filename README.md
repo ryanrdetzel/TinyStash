@@ -2,7 +2,19 @@
 
 One little note. For your eyes only.
 
-Native Swift/AppKit encrypted notes in files you choose. No dependencies, accounts, built-in sync, server, or plugins.
+An encrypted scratchpad for the API keys, tokens, passwords, and other sensitive snippets you keep handy while developing or testing. Instead of leaving them in an open TextEdit or Sublime Text tab—or a plain-text file in your project—keep them in one small note that locks when you switch away.
+
+Use it for a quick testing session or keep the encrypted file for later. Native Swift/AppKit on macOS, with no dependencies, accounts, built-in sync, server, or plugins.
+
+![Tiny Stash's native macOS lock screen, with New Stash and Open Stash actions](docs/images/tinystash.png)
+
+### Why not just a text editor?
+
+- **Encrypted files, not plain-text scratch files.** Each edit is encrypted before it is saved. An AI coding agent or other process reading the file gets ciphertext, not the note's contents.
+- **Locked when you switch away.** Focus-loss locking is on by default, so secrets do not stay visible in an unattended editor tab.
+- **Note text excluded from Accessibility.** The editor does not expose its contents through the standard Accessibility tree, reducing exposure to tools that read other apps through that interface.
+
+**Not an isolation boundary against AI agents or other local processes.** An agent with screen-capture access may see an unlocked note; copied secrets enter the system clipboard. Tiny Stash does not protect against software controlling your login session or a compromised OS. See [Boundaries](#boundaries).
 
 Licensed under the [MIT License](LICENSE).
 
