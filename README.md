@@ -6,7 +6,7 @@ An encrypted scratchpad for the API keys, tokens, passwords, and other sensitive
 
 Use it for a quick testing session or keep the encrypted file for later. Native Swift/AppKit on macOS, with no dependencies, accounts, built-in sync, server, or plugins.
 
-![An open Tiny Stash note with clearly fake API key, access token, and password examples](docs/images/tinystash.png)
+![An open Tiny Stash note with clearly fake API key, access token, and password examples](docs/images/tinystash-open-note.png)
 
 ### Why not just a text editor?
 
